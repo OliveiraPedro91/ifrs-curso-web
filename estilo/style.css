@@ -16,6 +16,9 @@ header, nav, main, footer{
 header{
     height: 100px;
     width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 nav{
     height: 100px;
@@ -41,17 +44,19 @@ main{
     width: 100%;
 }
 .home{
+    height: 200px;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 .conteudo{
+    height: 200px;
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.61);
 }
 .contato{
+    height: 200px;
     display:flex;
     justify-content: center;  
     align-items: center;  
