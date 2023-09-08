@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+header, nav, main, footer{
+    background-color: lightgrey;
+
+}
+header{
+    height: 100px;
+    width: 50%;
+}
+nav{
+    height: 100px;
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav > a{
+    text-decoration: none;
+    padding: 20px;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+}
+nav > a:hover{
+    background-color: black;
+    color: white;
+}
+main{   
+    width: 100%;
+}
+.home{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contato{
+    display:flex;
+    justify-content: center;  
+    align-items: center;  
+}
+footer{
+    height: 100px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
